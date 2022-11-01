@@ -14,9 +14,9 @@ int main(){
 
     nr_nou = 0;
     while (p != 0){
-        cifra = nr / p;
+        cifra = nr / p % 10;
         nr_nou = nr_nou * 10 + cifra;
-        nr = nr % (p * 10);
+        nr = nr % p;
         p = p / 100;
     }
 
