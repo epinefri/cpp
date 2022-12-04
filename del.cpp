@@ -12,7 +12,7 @@ int main()
     for (int i = input - 1; i < 5; i++)
         v[i] = v[i + 1];
 
-    cout << "new: " << endl;
+    cout << "new: ";
     for (int i = 0; i < 4; i++)
         cout << v[i];
 
